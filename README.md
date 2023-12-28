@@ -1,16 +1,9 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+В проекте:
+1. conftest.py - фикстура для драйвера
+2. locators.py - файл с локаторами
+3. constants.py - файл с константами (креды тестового пользователя и урлы)
+4. test_registration.py - тест регистрации успешный и неуспешный (некорректный пароль)
+5. test_login.py - тест авторизации (по кнопке «Войти в аккаунт» на главной, через кнопку «Личный кабинет», через кнопку в форме регистрации, через кнопку в форме восстановления пароля)
+6. test_navigation.py - тест переходов на страницу ЛК и из ЛК в Конструктор
+7. test_exit.py - тест выхода из ЛК
+8. test_constructor.py - тест навигации по табам конструктора
